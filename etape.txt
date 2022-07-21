@@ -1,0 +1,26 @@
+npm install @react-navigation/native @react-navigation/native-stack
+expo install react-native-safe-area-view react-native-safe-area-context
+expo install @react-native-community/masked-view
+expo install react-native-gesture-handlerreact-native-reanimatedreact-native-screensreact-native-safe- area-context @react-native-community/masked-view
+
+
+onboarding
+
+npm i react-native-onboarding-swiper
+
+tabs :
+npm install @react-navigation/bottom-tabs
+
+firebase
+expo install firebase@8.2.3
+
+
+icon:
+
+https://oblador.github.io/react-native-vector-icons/
+
+
+npm install react-native-checkbox --save
+npm i react-native-paper
+
+npm install react-hook-form

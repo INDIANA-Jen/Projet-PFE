@@ -1,0 +1,38 @@
+/*import React from 'react';
+import { Text, View } from 'react-native';
+
+const HomeScreen = () => {
+  return (
+    <View
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center"
+      }}>
+      <Text>Hello, world!</Text>
+    </View>
+  )
+}
+export default HomeScreen;*/
+
+import React from 'react';
+import { View, Button, Text, StyleSheet } from 'react-native';
+
+export function HomeScreen(props) {
+    return (
+        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+            <Text style={{ fontSize: 20 }}>Home Screen</Text>
+            <Button
+                title="Go to Details"
+                onPress={() => {
+                    props.navigation.navigate('Details', {
+                        userId: 1,
+                        userName: 'Awesome User',
+                    });
+                }
+                }
+            />
+        </View>
+    );
+}
+
